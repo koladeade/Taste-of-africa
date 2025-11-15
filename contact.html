@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Taste of Africa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TASTE OF AFRICA</a>
+
+        <nav class="navbar">
+            
+                <a href="index.html">Home</a>
+                <a href="../Recipes/recipes.html">Recipes</a>
+                <a href="../Regions/regions.html">Regions</a>
+                <a href="About.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+        </nav>
+    
+    </header>
+    <main>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select your country</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Ethiopia">Ethiopia</option>
+            </select>
+
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+    </main>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Kolade Adepoju. All rights reserved.</p>
+    </div>
+</footer>
+</html
