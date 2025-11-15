@@ -2,6 +2,10 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=20862240)
 # Tastes of Africa – Website Project
 
+## Important!!!
+Please do not clone this project into an extra subfolder (for example: Desktop ➝ ProjectName ➝ ProjectName).
+If the repository is placed inside an additional folder, the file paths will break and some pages may not load correctly.
+
 ## Introduction
 Welcome to the **Tastes of Africa** project!  
 In this assignment, you’ll build and style a multi-page website celebrating Africa’s rich and diverse culinary traditions.  
