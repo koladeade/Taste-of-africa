@@ -56,7 +56,7 @@ header {
     text-decoration: underline; 
 }
 
-.navbar a:active {
+.navbar a.active {
     color: green;
     font-weight: 700;
 }
